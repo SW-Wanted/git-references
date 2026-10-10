@@ -160,11 +160,12 @@ git push origin --tags
 ## 10. Outros Comandos Úteis
 
 ```bash
-git diff                  # diferenças entre arquivos modificados e staging
-git diff --staged         # diferenças entre staging e último commit
-git show <hash_commit>    # mostrar alterações de um commit
-git blame arquivo.txt     # mostra linha por linha quem modificou
-git clean -f              # remove arquivos não rastreados
-git fetch                 # baixa alterações do remoto sem aplicar
-git remote prune origin   # remove branches remotas deletadas
+git diff                   # diferenças entre arquivos modificados e staging
+git diff --staged          # diferenças entre staging e último commit
+git show <hash_commit>     # mostrar alterações de um commit
+git blame arquivo.txt      # mostra linha por linha quem modificou
+git clean -f               # remove arquivos não rastreados
+git fetch                  # baixa alterações do remoto sem aplicar
+git remote prune origin    # remove branches remotas deletadas
+git check-ignore -v <file> # mostra qual regra e arquivo .gitignore estão a ignorar o arquivo  
 ```
